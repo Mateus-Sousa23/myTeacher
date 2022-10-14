@@ -6,7 +6,9 @@ interface ListProps{
   teachers: Teacher[],
 }
 
+
 const List = (props: ListProps) => {
+
       return ( 
  	      <div>
             {props.teachers.length > 0 ? (
